@@ -36,3 +36,34 @@
     transform: rotate(360deg);
   }
 }
+
+
+.orange {
+  background-color: orange;
+}
+
+.blue {
+  background-color: blue;
+  
+}
+
+.blue input {
+  width: 100%;
+}
+
+.green {
+  background-color: green;
+  
+}
+
+.green table {
+  width: 100%
+}
+
+.red {
+  background-color: red;
+}
+
+.red table {
+  width: 100%;
+}
