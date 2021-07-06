@@ -9,17 +9,10 @@ class ProductRow extends Component {
        
         return(
             
-            <div className= "red">
-        
-        <table>
             <tr>
-        <td>Jill</td>
-         <td>Smith</td>
-        </tr>
-
-        </table>
-        
-        </div>
+                <td>{this.props.product.name}</td>
+                <td>{this.props.product.price}</td>
+            </tr>
         )}
 }
 

@@ -7,7 +7,7 @@ import FilterableProductTable from './components/FilterableProductTable';
 function App() {
   return (
       <div className="App">
-    <FilterableProductTable products={ jsondata.data } console.log(products)/>
+    <FilterableProductTable products={ jsondata.data } />
     
     
         

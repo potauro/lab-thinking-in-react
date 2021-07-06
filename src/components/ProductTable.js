@@ -4,6 +4,7 @@ import ProductRow from './ProductRow'
 class ProductTable extends Component {
 
     render(){
+        const products = this.props.products
         return(
             <div className= "green">
         <table>
@@ -11,7 +12,11 @@ class ProductTable extends Component {
         <th>Name</th>
         <th>Price</th>
     </tr>
-    <ProductRow />
+    {products.map(function (product) {
+        return <ProductRow key={product.id} product={product} />
+
+    })}
+    
     </table>
     
         </div>
