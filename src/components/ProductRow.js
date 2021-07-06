@@ -2,8 +2,13 @@ import React, {Component} from 'react';
 
 class ProductRow extends Component {
 
+
+
     render(){
+
+       
         return(
+            
             <div className= "red">
         
         <table>

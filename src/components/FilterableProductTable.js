@@ -13,7 +13,6 @@ class FilterableProductTable extends Component {
 
         <SearchBar />
         <ProductTable />
-        <ProductRow />
 
 </div>
         )}
